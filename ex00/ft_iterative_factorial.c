@@ -16,8 +16,8 @@
 int		ft_iterative_factorial(int nb)
 {
 	int		result;
-	int		counter
-		;
+	int		counter;
+		
 	result = 1;
 	counter = 1;
 
