@@ -21,7 +21,7 @@ int		ft_iterative_factorial(int nb)
 	result = 1;
 	counter = 1;
 
-	if(nb >= 0 && nb <=8)
+	if( nb >= 0 && nb <= 8)
 
 	{
 		while ( counter <= nb);
