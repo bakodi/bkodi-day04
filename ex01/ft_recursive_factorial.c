@@ -15,16 +15,17 @@
 
 int ft_recursive_factorial(int nb)
 {
-	if( nb < 0) || ( nb > 10)
-	{
+	if( nb == 0)
 		return(1);
-	}
-	if ( nb>= 1 )
-	{
-		return ( nb * ft_recursive_factorial(nb -1));
-	}
-	else 
-	{ 
+	else if ( nb < 0 || nb > 8 )
 		return(0);
+	else 
+	{
+		c = c *nb;
+		ft_recursive_factorial(nb - 1 );
 	}
+	return (c);
+	
+		
 }
+	
